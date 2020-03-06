@@ -12,9 +12,9 @@ Tiny changes to that, along with small changes to 3 of the official Scratch repo
 let you run an instance of scratch-gui that will be able to use a PicoBoard plugged
 into your computer.
 
-This has only beedn tested on linux Ubuntu 19.10 so far.
+This has only been tested on linux Ubuntu 19.10 so far.
 
-## Installing (Ubuntu 19.10) from bash shell
+## Installing from bash shell (Ubuntu 19.10)
 
 ```
 # install node, npm, and git; skip if you have these
@@ -51,7 +51,7 @@ npm run build
 ```
 
 
-## Running (Ubuntu 19.10) from bash shell
+## Running from bash shell (Ubuntu 19.10)
 ```
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
