@@ -51,7 +51,7 @@ npm run build
 ```
 
 
-## Running (Ubuntu 18.04) from bash shell
+## Running (Ubuntu 19.10) from bash shell
 ```
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
