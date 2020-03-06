@@ -56,4 +56,7 @@ npm run build
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
 node app.js &
-#
+
+# open your web browser to the scratch 3 page you just built:
+firefox $PICO/scratch-gui/build/index.html
+```
