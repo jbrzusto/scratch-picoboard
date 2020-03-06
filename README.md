@@ -12,7 +12,7 @@ Tiny changes to that, along with small changes to 3 of the official Scratch repo
 let you run an instance of scratch-gui that will be able to use a PicoBoard plugged
 into your computer.
 
-This has only beedn tested on linux Ubuntu 18.04 so far.
+This has only beedn tested on linux Ubuntu 19.10 so far.
 
 ## Installing (Ubuntu 18.04) from bash shell
 
