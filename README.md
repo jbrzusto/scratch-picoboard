@@ -25,7 +25,7 @@ export PICO=/home/$USER/picoboard
 mkdir $PICO
 cd $PICO
 for r in scratch-picoboard scratch-vm scratch-gui scratch-blocks asi-link; do
-    git clone --depth=1 picoboard https://github.com/jbrzusto/$r
+    git clone --depth=1 https://github.com/jbrzusto/$r
     cd $r
     git checkout picoboard # fails for scratch-picoboard but doesn't matter
     cd ..
