@@ -14,19 +14,19 @@ into your computer.
 
 This has only beedn tested on linux Ubuntu 18.04 so far.
 
-## Installing (Ubuntu 18.04)
+## Installing (Ubuntu 18.04) from bash shell
 
 ```
 # install node, npm, and git; skip if you have these
 sudo apt-get install nodejs npm git p7zip-full
 
 # make a directory and clone needed repos
-export PICO=~/picoboard
-mkdir \$PICO
-cd \$PICO
+export PICO=/home/$USER/picoboard
+mkdir $PICO
+cd $PICO
 for r in scratch-picoboard scratch-vm scratch-gui scratch-blocks asi-link; do
     git clone --depth=1 picoboard https://github.com/jbrzusto/$r
-    cd \$r
+    cd $r
     git checkout picoboard
     cd ..
 done
@@ -51,9 +51,9 @@ npm run build
 ```
 
 
-## Running (Ubuntu 18.04)
+## Running (Ubuntu 18.04) from bash shell
 ```
 # run the serial-port scratchlink replacement
-cd \$PICO/asi-link
+cd $PICO/asi-link
 node app.js &
 #
