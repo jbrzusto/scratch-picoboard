@@ -27,7 +27,7 @@ cd $PICO
 for r in scratch-picoboard scratch-vm scratch-gui scratch-blocks asi-link; do
     git clone --depth=1 picoboard https://github.com/jbrzusto/$r
     cd $r
-    git checkout picoboard
+    git checkout picoboard # fails for scratch-picoboard but doesn't matter
     cd ..
 done
 
