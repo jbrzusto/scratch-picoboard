@@ -14,7 +14,7 @@ into your computer.
 
 This has only beedn tested on linux Ubuntu 19.10 so far.
 
-## Installing (Ubuntu 18.04) from bash shell
+## Installing (Ubuntu 19.10) from bash shell
 
 ```
 # install node, npm, and git; skip if you have these
