@@ -9,8 +9,8 @@
 
 ## Overview
 
-The hard work was already done here: https://github.com/audetto/asi-link
-That repo provides a replacement for ScratchLink that serves up local
+The hard piece was already available in https://github.com/audetto/asi-link,
+which provides a replacement for ScratchLink that serves up local
 serial ports on a websocket server so that a local instance of Scratch 3
 can connect to them.  The PicoBoard connects to your computer as a USB serial device.
 
@@ -18,9 +18,9 @@ Tiny changes to that, along with small changes to 3 of the official Scratch repo
 let you run an instance of scratch-gui that will be able to use a PicoBoard plugged
 into your computer.
 
-This has only been tested on linux Ubuntu 19.10 so far.
+This has only been tested on linux Ubuntu 19.10 and 18.04 so far.
 
-## Installing from bash shell (Ubuntu 19.10)
+## Installing from bash shell
 
 ```
 # install node, npm, and git; skip if you have these
@@ -58,7 +58,7 @@ npm run build
 ```
 
 
-## Running from bash shell (Ubuntu 19.10)
+## Running from bash shell
 ```
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
