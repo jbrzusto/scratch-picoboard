@@ -1,7 +1,7 @@
 # Using a Sparkfun PicoBoard with Scratch 3
 
-2020-03-06 **NOT YET WORKING**: my scratch-vm fork on github is missing a commit; will
-fix this evening.
+2020-03-06 **NOT YET WORKING**: since pushing to github, an upstream
+change has broken things... work in progress.
 
 The hard work was already done here: https://github.com/audetto/asi-link
 That repo provides a replacement for ScratchLink that serves up local
@@ -31,7 +31,8 @@ for r in scratch-picoboard scratch-vm scratch-gui scratch-blocks asi-link; do
     cd ..
 done
 
-# follow the standard instructions for installing scratch 3 locally
+# follow the standard instructions for installing scratch 3 locally.
+# (summarized from https://scratch.mit.edu/discuss/topic/289503/ )
 # for me, npm-link only works with 'sudo'; your installation might not need it
 cd asi-link
 # not sure what these are used for, TBH
