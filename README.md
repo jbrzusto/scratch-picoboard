@@ -1,6 +1,11 @@
 # Using a Sparkfun PicoBoard with Scratch 3
 
-**2020-03-06 Update:** working under Ubuntu 19.10
+**2020-03-06 Update:**
+  - Ubuntu 19.10 (nodejs v10.15.2): **OK**
+
+  - Ubuntu 18.04 (nodejs v8.10.0): in picoboard dialogue, image transparently
+    covers *Disconnect* and *Go to Editor* buttons.  To return to the Editor,
+    close the dialogue or click on the blue background of the main page.
 
 The hard work was already done here: https://github.com/audetto/asi-link
 That repo provides a replacement for ScratchLink that serves up local
@@ -55,7 +60,7 @@ npm run build
 ```
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
-node app.js &
+sudo node app.js &  # sudo to ensure permission to the serial port
 
 # open your web browser to the scratch 3 page you just built:
 firefox $PICO/scratch-gui/build/index.html
