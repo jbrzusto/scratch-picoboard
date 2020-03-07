@@ -1,7 +1,6 @@
 # Using a Sparkfun PicoBoard with Scratch 3
 
-2020-03-06 **NOT YET WORKING**: since pushing to github, an upstream
-change has broken things... work in progress.
+**2020-03-06 Update:** working under Ubuntu 19.10
 
 The hard work was already done here: https://github.com/audetto/asi-link
 That repo provides a replacement for ScratchLink that serves up local
