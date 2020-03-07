@@ -3,9 +3,10 @@
 **2020-03-06 Update:**
   - Ubuntu 19.10 (nodejs v10.15.2): **OK**
 
-  - Ubuntu 18.04 (nodejs v8.10.0): in picoboard dialogue, image transparently
+  - (K)Ubuntu 18.04 (nodejs v8.10.0): in picoboard dialogue, image transparently
     covers *Disconnect* and *Go to Editor* buttons.  To return to the Editor,
-    close the dialogue or click on the blue background of the main page.
+    close the dialogue or click on the blue background of the main page.  Same
+    version of Firefox and same screen dimensions as the 19.10 test.
 
 ![choosing the picoboard extension](screenshot_choose_extension.png)
 ![picoboard blocks](screenshot_picoboard_in_use.png)
