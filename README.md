@@ -26,9 +26,9 @@ into your computer.
 
 This has only been tested on linux Ubuntu 19.10 and 18.04 so far.
 
-## Installing from bash shell
+## Installing from bash
 
-```
+```bash
 # install node, npm, and git; skip if you have these
 sudo apt-get install nodejs npm git p7zip-full
 
@@ -64,8 +64,8 @@ npm run build
 ```
 
 
-## Running from bash shell
-```
+## Running from bash
+```bash
 # run the serial-port scratchlink replacement
 cd $PICO/asi-link
 sudo node app.js &  # sudo to ensure permission to the serial port
