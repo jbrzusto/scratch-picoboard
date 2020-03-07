@@ -8,15 +8,17 @@
     close the dialogue or click on the blue background of the main page.  Same
     version of Firefox and same screen dimensions as the 19.10 test.
 
+Despite the bluetooth and wifi icons in the image, these are not required.
 ![choosing the picoboard extension](screenshot_choose_extension.png)
 ![picoboard blocks](screenshot_picoboard_in_use.png)
 
 ## Overview
 
 The hard piece was already available in https://github.com/audetto/asi-link,
-which provides a replacement for ScratchLink that serves up local
-serial ports on a websocket server so that a local instance of Scratch 3
-can connect to them.  The PicoBoard connects to your computer as a USB serial device.
+which provides a replacement for ScratchLink that serves local serial ports over
+websockets server so that an instance of Scratch 3 running in your browser on the
+same computer can connect to them.  (The PicoBoard connects to your computer as a 
+USB serial device.)
 
 Tiny changes to that, along with small changes to 3 of the official Scratch repos
 let you run an instance of scratch-gui that will be able to use a PicoBoard plugged
@@ -69,5 +71,5 @@ cd $PICO/asi-link
 sudo node app.js &  # sudo to ensure permission to the serial port
 
 # open your web browser to the scratch 3 page you just built:
-firefox $PICO/scratch-gui/build/index.html
+firefox file://$PICO/scratch-gui/build/index.html
 ```
