@@ -7,6 +7,9 @@
     covers *Disconnect* and *Go to Editor* buttons.  To return to the Editor,
     close the dialogue or click on the blue background of the main page.
 
+![choosing the picoboard extension](screenshot_choose_extension.png)
+![picoboard blocks](screenshot_picoboard_in_use.png)
+
 ## Overview
 
 The hard piece was already available in https://github.com/audetto/asi-link,
