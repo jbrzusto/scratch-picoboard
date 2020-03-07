@@ -7,6 +7,8 @@
     covers *Disconnect* and *Go to Editor* buttons.  To return to the Editor,
     close the dialogue or click on the blue background of the main page.
 
+## Overview
+
 The hard work was already done here: https://github.com/audetto/asi-link
 That repo provides a replacement for ScratchLink that serves up local
 serial ports on a websocket server so that a local instance of Scratch 3
