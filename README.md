@@ -1,12 +1,9 @@
 # Using a Sparkfun PicoBoard with Scratch 3
 
-**2020-03-06 Update:**
+**2020-03-07 Update:**
   - Ubuntu 19.10 (nodejs v10.15.2): **OK**
 
-  - (K)Ubuntu 18.04 (nodejs v8.10.0): in picoboard dialogue, image transparently
-    covers *Disconnect* and *Go to Editor* buttons.  To return to the Editor,
-    close the dialogue or click on the blue background of the main page.  Same
-    version of Firefox and same screen dimensions as the 19.10 test.
+  - (K)Ubuntu 18.04 (nodejs v8.10.0): **OK**
 
 Despite the bluetooth and wifi icons in the image, these are not required.
 ![choosing the picoboard extension](screenshot_choose_extension.png)
